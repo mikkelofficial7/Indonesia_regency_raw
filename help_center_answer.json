@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": null,
+    "expectedAnswer": "<p><b>Hello, what can I assist you? Type <u>the number</u> below:</b></p>",
+    "expectedSubAnswer": [
+      { "message": "1. What is [SamaSama]?" },
+      { "message": "2. How do I create an account?" },
+      { "message": "3. How do I list an item for sale?" },
+      { "message": "4. What kind of items can I sell?" },
+      { "message": "5. How do I buy an item?" },
+      { "message": "6. How does payment work?" },
+      { "message": "7. What shipping options are available?" },
+      { "message": "8. What should I do if I receive a defective or incorrect item?" },
+      { "message": "9. What is the return policy?" },
+      { "message": "10. How does the rating and review system work?" },
+      { "message": "11. Are there any fees for selling on the platform?" },
+      { "message": "12. How can I ensure a safe transaction?" },
+      { "message": "13. What should I do if I suspect a fraudulent seller or listing?" },
+      { "message": "14. Can I communicate with the buyer/seller directly?" },
+      { "message": "15. How do I withdraw funds from my sales?" },
+      { "message": "16. What if I forget my password?" },
+      { "message": "17. How can I contact customer support?" },
+      { "message": "Type <b>stop</b> if you want to exit this chat" }
+    ]
+  },
+  {
+    "id": 0,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": null,
+    "expectedAnswer": "Sorry I cannot understand what you say..."
+  },
+  {
+    "id": 2,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": null,
+    "expectedAnswer": "Is this helping?<br/>Type: <strong>[Yes]</strong> or <strong>[No]</strong></p>"
+  },
+  {
+    "id": 3,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "yes",
+      "no",
+      "ya",
+      "tidak",
+      "stop",
+      "berhenti"
+    ],
+    "expectedAnswer": "Alright, Thank you for your response."
+  },
+  {
+    "id": 4,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "1",
+      "satu",
+      "01",
+      "pertama",
+      "one",
+      "first"
+    ],
+    "expectedAnswer": "<p><b>What is [SamaSama]?</b></p><p>[SamaSama] is an online platform where individuals can buy and sell secondhand products directly to one another. Our marketplace facilitates secure transactions between customers, making it easy to find pre-owned items in various categories such as electronics, clothing, furniture, and more.</p>"
+  },
+  {
+    "id": 5,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "2",
+      "dua",
+      "02",
+      "kedua",
+      "two",
+      "second"
+    ],
+    "expectedAnswer": "<p><b>How do I create an account?</b></p><p>To create an account, click on the “Sign Up” button when you first access the application. You can sign up using your email address or through social media platforms like Google or Facebook. Once registered, you’ll be able to list items for sale or make purchases.</p>"
+  },
+  {
+    "id": 6,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "3",
+      "tiga",
+      "03",
+      "ketiga",
+      "three",
+      "third"
+    ],
+    "expectedAnswer": "<p><b>How do I list an item for sale?</b></p><p>To list an item:</p><ul><li>Click the “Upload” Button on the Bottom Bar of the application.</li><li>Fill out the required information, such as item details, category, price, and upload images.</li><li>Once submitted, your listing will be live for potential buyers to see.</li></ul>"
+  },
+  {
+    "id": 7,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "4",
+      "empat",
+      "04",
+      "keempat",
+      "four",
+      "fourth"
+    ],
+    "expectedAnswer": "<p><b>What kind of items can I sell?</b></p><p>You can sell a wide range of secondhand products, including:</p><ul><li>Clothing and accessories</li><li>Electronics and gadgets</li><li>Home goods and furniture</li><li>Sports equipment</li><li>Books and media</li></ul><p>However, please review our prohibited items list to ensure your products comply with marketplace guidelines.</p>"
+  },
+  {
+    "id": 8,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "5",
+      "lima",
+      "05",
+      "kelima",
+      "five",
+      "fifth"
+    ],
+    "expectedAnswer": "<p><b>How do I buy an item?</b></p><ul><li>Browse through listings by category or search for specific items.</li><li>Once you find something you like, click “Buy Now”.</li><li>Complete the purchase by following the checkout process and making a secure payment.</li></ul>"
+  },
+  {
+    "id": 9,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "6",
+      "enam",
+      "06",
+      "keenam",
+      "six",
+      "sixth"
+    ],
+    "expectedAnswer": "<p><b>How does payment work?</b></p><p>All payments are processed securely through our platform. We accept various payment methods such as credit/debit cards, e-wallets, and bank transfers. Funds are held in escrow until the buyer confirms receipt of the item, ensuring safe transactions for both parties.</p>"
+  },
+  {
+    "id": 10,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "7",
+      "tujuh",
+      "07",
+      "ketujuh",
+      "seven",
+      "seventh"
+    ],
+    "expectedAnswer": "<p><b>What shipping options are available?</b></p><p>Sellers can choose from a variety of shipping options, including Gojek/Grab and other logistic partners such as JNE. Once the item is sold, the seller will be responsible for shipping it to the buyer using the agreed method. The cost of shipping is typically paid by the buyer unless otherwise agreed.</p>"
+  },
+  {
+    "id": 11,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "8",
+      "delapan",
+      "08",
+      "kedelapan",
+      "eight",
+      "eighth"
+    ],
+    "expectedAnswer": "<p><b>What should I do if I receive a defective or incorrect item?</b></p><p>If you receive an item that is not as described or is defective, you can report the issue within 7 days of receiving it. Our team will mediate between the buyer and seller to resolve the issue, which may include a refund or exchange.</p>"
+  },
+  {
+    "id": 12,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "9",
+      "sembilan",
+      "09",
+      "kesembilan",
+      "nine",
+      "ninth"
+    ],
+    "expectedAnswer": "<p><b>What is the return policy?</b></p><p>Return policies vary depending on the situation of the transaction. If we can verify that there is a problem with the product, we will initiate a return on behalf of the buyer.</p>"
+  },
+  {
+    "id": 13,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "10",
+      "sepuluh",
+      "10",
+      "kesepuluh",
+      "ten",
+      "tenth"
+    ],
+    "expectedAnswer": "<p><b>How does the rating and review system work?</b></p><p>After completing a transaction, both buyers and sellers can leave ratings and reviews. This system helps create a trustworthy community by allowing users to assess the reliability and quality of others based on previous experiences.</p>"
+  },
+  {
+    "id": 14,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "11",
+      "sebelas",
+      "11",
+      "kesebelas",
+      "eleven",
+      "eleventh"
+    ],
+    "expectedAnswer": "<p><b>Are there any fees for selling on the platform?</b></p><p>[SamaSama] charges a small transaction fee on successful sales. This fee covers payment processing, platform maintenance, and customer support. The fee will be automatically deducted when the payment is processed.</p>"
+  },
+  {
+    "id": 15,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "12",
+      "duabelas",
+      "12",
+      "kedua belas",
+      "twelve",
+      "twelfth"
+    ],
+    "expectedAnswer": "<p><b>How can I ensure a safe transaction?</b></p><p>To ensure a safe transaction, always use our built-in payment and messaging system. Avoid external transactions, as we cannot protect you in case of fraud if transactions are made outside our platform.</p>"
+  },
+  {
+    "id": 16,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "13",
+      "tigabelas",
+      "13",
+      "ketiga belas",
+      "thirteen",
+      "thirteenth"
+    ],
+    "expectedAnswer": "<p><b>What should I do if I suspect a fraudulent seller or listing?</b></p><p>If you come across suspicious activity, fake listings, or believe you are dealing with a fraudulent seller, report the listing or user immediately through the platform’s report feature. Our team will investigate and take appropriate action.</p>"
+  },
+  {
+    "id": 17,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "14",
+      "empat belas",
+      "14",
+      "keempat belas",
+      "fourteen",
+      "fourteenth"
+    ],
+    "expectedAnswer": "<p><b>Can I communicate with the buyer/seller directly?</b></p><p>Yes, our platform allows public communication between buyers and sellers that can be viewed by all users interested in the product (including the Seller). Use the messaging feature to ask questions and negotiate price.</p>"
+  },
+  {
+    "id": 18,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "15",
+      "lima belas",
+      "15",
+      "kelima belas",
+      "fifteen",
+      "fifteenth"
+    ],
+    "expectedAnswer": "<p><b>How do I withdraw funds from my sales?</b></p><p>Once a sale is completed, the funds will be credited to your marketplace account. You can withdraw these funds to your bank account or e-wallet by going to the “Wallet” section in your account settings.</p>"
+  },
+  {
+    "id": 19,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "16",
+      "enam belas",
+      "16",
+      "keenam belas",
+      "sixteen",
+      "sixteenth"
+    ],
+    "expectedAnswer": "<p><b>What if I forget my password?</b></p><p>If you forget your password, click on the “Forgot Password” link on the login page. You’ll receive an email with instructions to reset your password.</p>"
+  },
+  {
+    "id": 20,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "17",
+      "tujuh belas",
+      "17",
+      "ketujuh belas",
+      "seventeen",
+      "seventeenth"
+    ],
+    "expectedAnswer": "<p><b>How can I contact customer support?</b></p><p>For further assistance, you can reach our customer support team via the “Contact Us” page, or send an email to <a href=\"mailto:support@example.com\">support@example.com</a>. We’re available to help you with any questions or concerns you may have.</p>"
+  }
+]
