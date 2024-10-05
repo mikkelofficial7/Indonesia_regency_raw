@@ -51,6 +51,12 @@
     "expectedAnswer": "Alright, Thank you for your response."
   },
   {
+    "id": -1,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": null,
+    "expectedAnswer": "Seems like you have no interaction for a while. Chat is automatically ended.."
+  },
+  {
     "id": 4,
     "type": "ADMIN",
     "expectedKeywordQuestion": [
