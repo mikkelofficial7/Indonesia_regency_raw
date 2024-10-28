@@ -275,6 +275,6 @@
       "seventeen",
       "seventeenth"
     ],
-    "expectedAnswer": "<p><b>How can I contact customer support?</b></p><p>For further assistance, you can reach our customer support team via the “Contact Us” page, or send an email to <a href=\"mailto:support@example.com\">support@example.com</a>. We’re available to help you with any questions or concerns you may have.</p>"
+    "expectedAnswer": "<p><b>How can I contact customer support?</b></p><p>For further assistance, you can reach our customer support team via the “Contact Us” page, or call us to <a href=\"tel:+6285110808569\">+6285110808569</a> or send an email to <a href=\"mailto:abel@globalasiajaya.com\">abel@globalasiajaya.com</a>. We’re available to help you with any questions or concerns you may have.</p>"
   }
 ]
