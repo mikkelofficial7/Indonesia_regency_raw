@@ -22,6 +22,8 @@
       { "message": "15. How do I withdraw funds from my sales?" },
       { "message": "16. What if I forget my password?" },
       { "message": "17. How can I contact customer support?" },
+      { "message": "18. How long is my order cancelation?" },
+      { "message": "19. Where is the address for returning our goods?" },
       { "message": "Type <b>stop</b> if you want to exit this chat" }
     ]
   },
@@ -205,7 +207,6 @@
     "expectedKeywordQuestion": [
       "12",
       "duabelas",
-      "12",
       "kedua belas",
       "twelve",
       "twelfth"
@@ -218,7 +219,6 @@
     "expectedKeywordQuestion": [
       "13",
       "tigabelas",
-      "13",
       "ketiga belas",
       "thirteen",
       "thirteenth"
@@ -231,7 +231,6 @@
     "expectedKeywordQuestion": [
       "14",
       "empat belas",
-      "14",
       "keempat belas",
       "fourteen",
       "fourteenth"
@@ -244,7 +243,6 @@
     "expectedKeywordQuestion": [
       "15",
       "lima belas",
-      "15",
       "kelima belas",
       "fifteen",
       "fifteenth"
@@ -257,7 +255,6 @@
     "expectedKeywordQuestion": [
       "16",
       "enam belas",
-      "16",
       "keenam belas",
       "sixteen",
       "sixteenth"
@@ -270,11 +267,34 @@
     "expectedKeywordQuestion": [
       "17",
       "tujuh belas",
-      "17",
       "ketujuh belas",
       "seventeen",
       "seventeenth"
     ],
     "expectedAnswer": "<p><b>How can I contact customer support?</b></p><p>For further assistance, you can reach our customer support team via the “Contact Us” page, or call us to <a href=\"tel:+6285110808569\">+6285110808569</a> or send an email to <a href=\"mailto:abel@globalasiajaya.com\">abel@globalasiajaya.com</a>. We’re available to help you with any questions or concerns you may have.</p>"
+  }
+  {
+    "id": 21,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "18",
+      "delapan belas",
+      "kedelapan belas",
+      "eightteen",
+      "eightteenth"
+    ],
+    "expectedAnswer": "<p><b>How long is my order cancelation?</b></p><p>You are entitled to cancel Your Order <b>within 7 days</b> without giving any reason for doing so. We will reimburse You <b>no later than 14 days</b> from the day on which We receive the returned Goods</p>"
+  }
+  {
+    "id": 22,
+    "type": "ADMIN",
+    "expectedKeywordQuestion": [
+      "19",
+      "sembilan belas",
+      "kesembilan belas",
+      "nineteen",
+      "nineteenth"
+    ],
+    "expectedAnswer": "<p><b>Where is the address for returning our goods?</b></p><p>Jl. Hayam Wuruk 3-RR RT006 / RW002, Kebon Kelapa, Gambir - Jakarta Pusat 10120</p>"
   }
 ]
